@@ -12,10 +12,10 @@ Below is the conceptual architecture of the system, illustrating how the fronten
 
 ```mermaid
 graph TD
-    classDef client fill:#e0f2fe,stroke:#0369a1,stroke-width:2px;
-    classDef server fill:#f3e8ff,stroke:#6b21a8,stroke-width:2px;
-    classDef database fill:#fef3c7,stroke:#b45309,stroke-width:2px;
-    classDef ai fill:#dcfce7,stroke:#166534,stroke-width:2px;
+    classDef client fill:#e0f2fe,stroke:#0369a1,stroke-width:2px,color:#000;
+    classDef server fill:#f3e8ff,stroke:#6b21a8,stroke-width:2px,color:#000;
+    classDef database fill:#fef3c7,stroke:#b45309,stroke-width:2px,color:#000;
+    classDef ai fill:#dcfce7,stroke:#166534,stroke-width:2px,color:#000;
 
     subgraph Frontend ["Client - React 19 + Vite + Tailwind CSS"]
         UI["User Interface (Chat, Quiz, Cards, Dashboard)"]:::client
