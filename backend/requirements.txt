@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pymongo
+python-multipart
+pdfplumber
+langchain
+langchain-community
+chromadb
+sentence-transformers
+pyjwt
+passlib[bcrypt]
+requests
+python-dotenv
+huggingface-hub
+--only-binary=:all:
